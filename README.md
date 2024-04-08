@@ -1,27 +1,35 @@
-# WeatherApp
+<img width="1920" alt="dt-money-banner" src="https://github.com/ivanrpassos/weather-app/assets/62813966/4264c4f7-1ab0-46a0-b709-cbe4cb88721f">
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.0.0.
+# Descrição
+DT Money já era um projeto do Ignite. Porém passou por um redesign em sua interface e em suas features. Então na aplicação temos o uso de várias bibliotecas interessantes como o React Hook Form, Zod e até mesmo o JSON Server. Também usamos o reducer, useCallback e entre outros React Hooks.
 
-## Development server
+## Baixar o projeto
+Antes de tudo é necessário você fazer o download do projeto em sua máquina local. Pode baixar do jeito que preferir fazendo um `git clone`, `fork` do repositório ou baixar o `zip` do projeto. 
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+Após ter feito isso, abra o projeto com o seu editor de código preferido. Recomendamos o uso do [Visual Studio Code](https://code.visualstudio.com/).
 
-## Code scaffolding
+## Instalando as dependências
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+```bash
+npm install
+```
 
-## Build
+É o comando para baixar todas as dependências que o projeto possuí. Possibilitando roda-lo 
+após a instalação.
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+## Rodando o servidor local
 
-## Running unit tests
+```bash
+npm run start
+```
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+Inicia sua aplicação no ambiente de desenvolvimento. Após subir localmente em sua máquina, abra  [http://localhost:4200](http://localhost:4200) para ver a aplicação em seu navegador.
 
-## Running end-to-end tests
+A cada alteração no código fonte a página será renderizada novamente com o Live Reload do Angular. Também é possível ter a visualização de erros em tempo real no prompt de comando onde executou o projeto e no navegador web, através do console do navegador.
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
 
-## Further help
+## Tecnologias utilizadas
+Abaixo você encontra as seguintes tecnologias, linguagens e ferramentas utilizadas para o desenvolvimento do projeto.
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+<a href="https://angular.io/"><img src="https://img.shields.io/static/v1?label=&message=Angular&color=161b22&style=for-the-badge&logo=angular"/></a>\
+<a href="https://www.typescriptlang.org/"><img src="https://img.shields.io/static/v1?label=&message=Typescript&color=161b22&style=for-the-badge&logo=typescript"/></a>
